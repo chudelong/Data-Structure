@@ -1,12 +1,14 @@
 package one;
 
+import util.ArrayOutput;
+
 public class InsertSort {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] arr = {2,1,4,0,6,1,3,5,7,9,777,4,2,24,524,52,4};
 		iSort(arr);
-		arraySort(arr);
+		ArrayOutput.arraySort(arr);
 	}
 	
 	/**
@@ -31,16 +33,4 @@ public class InsertSort {
 			}
 		}
 	}
-
-	/**
-	 * ±éÀúÊı×é
-	 * @param arr
-	 */
-	public static void arraySort(int[] arr) {
-		for(int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i] + ",");
-		}
-	}
-	
-
 }
