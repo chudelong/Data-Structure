@@ -8,7 +8,7 @@ import util.ArrayOutput;
  * 1.每次遍历，从左到右相邻的两个元素进行比较，如果元素左大于右，则元素互换，否则不变。直至遍历到最后，最后一个
  * 元素成为最大的元素。
  * 2.遍历次数依次减少，每次遍历都遍历出最大的元素。
- * @author cmri
+ * @author cdl
  *
  */
 public class BullleSort {
