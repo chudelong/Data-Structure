@@ -25,7 +25,7 @@ public class InsertSort {
 		int temp;
 		//共要比较的循环数
 		for(int i = 1; i < arr.length; i++) {
-			//每次比较的次数，j > 0 是确保指向有校的数组地址
+			//每次比较的次数，j > 0 是确保指向有校的数组地址,a[j]待排序的元素
 			for(int j = i; j > 0 && arr[j-1] > arr[j]; j--) {
 				temp = arr[j];
 				arr[j] = arr[j-1];
