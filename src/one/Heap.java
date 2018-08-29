@@ -80,8 +80,21 @@ public class Heap<E extends Comparable<E>> {
 				break; 
 			}
 			int maxIndex = leftChildIndex;
+			
+			if(list.get(currentIndex).compareTo(list.get(maxIndex)) < 0) {
+				E temp = list.get(maxIndex);
+				list.set(maxIndex, list.get(currentIndex));
+				list.set(currentIndex, temp);
+				currentIndex = maxIndex;
+			} else {
+				break;
+			}
 		}
 		return removedObject;
+	}
+	
+	public int getSize() {
+		return list.size();
 	}
 }
 
