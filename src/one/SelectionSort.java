@@ -6,7 +6,7 @@ import util.ArrayOutput;
  * 简单选择排序
  * 原理：每一趟从待排序的记录中选出最小的元素，将找到的最小元素与排好序后一位元素就位置交换，顺序放在已排好序的序列最后，直到全部记录排序完毕
  * 
- * @author cdl
+ * @author cdl 
  *
  */
 public class SelectionSort {
