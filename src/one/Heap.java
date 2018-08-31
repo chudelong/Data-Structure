@@ -103,7 +103,7 @@ public class Heap<E extends Comparable<E>> {
 		return removedObject;
 	}
 	
-	//获得完全二叉树的节点数
+	//获得完全二叉树的节点
 	public int getSize() {
 		return list.size();
 	}
